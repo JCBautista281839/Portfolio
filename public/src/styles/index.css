@@ -57,6 +57,11 @@ img {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), transparent 30%);
 }
 
+.landing-page--loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
 section {
   padding: 88px 28px;
   width: 100%;
