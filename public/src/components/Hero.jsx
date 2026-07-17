@@ -1,5 +1,6 @@
 import '../styles/Hero.css'
 import profilePhoto from '../assets/ME.png'
+import resumePdf from '../assets/BAUTISTA^J JOHN CHRISTIAN D.pdf'
 import bootstrapIcon from '../assets/Bootstrap (1).png'
 import canvaIcon from '../assets/canva-icon.png'
 import cssIcon from '../assets/css-3.png'
@@ -53,8 +54,13 @@ function Hero() {
             Passionate about building accessible and user friendly websites that feel polished, fast, and human.
           </p>
           <div className="hero-actions">
-            <a className="cta-button" href="#contact">
-              CONTACT ME
+            <a
+              className="cta-button"
+              href={resumePdf}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              RESUME
               <span aria-hidden="true">•</span>
             </a>
             <a
