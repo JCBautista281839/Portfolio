@@ -45,13 +45,13 @@ function Hero() {
     <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-copy">
-          <p className="hero-kicker">A Philippines based Web developer</p>
+          <p className="hero-kicker">A Philippines-based Web developer</p>
           <h1>
             HI, I AM
             <span> JOHN CHRISTIAN BAUTISTA.</span>
           </h1>
           <p className="hero-description">
-            Passionate about building accessible and user friendly websites that feel polished, fast, and human.
+            Passionate about building accessible and user-friendly websites that feel polished, fast, and human.
           </p>
           <div className="hero-actions">
             <a
