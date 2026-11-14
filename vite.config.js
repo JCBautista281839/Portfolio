@@ -6,7 +6,10 @@ export default defineConfig({
   root: 'public',
   server: {
     port: 3001,
-    open: true
+    open: true,
+    watch: {
+      ignored: ['**/downloads/**']
+    }
   },
   build: {
     outDir: '../dist'
