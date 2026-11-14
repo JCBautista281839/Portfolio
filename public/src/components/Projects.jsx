@@ -82,7 +82,8 @@ function Projects() {
       ],
       imageAlt: 'BENTA POS system screenshots',
       liveUrl: '',
-      downloadUrl: '/downloads/BENTA-POS.apk',
+      downloadUrl:
+        'https://expo.dev/accounts/itian11/projects/posapp/builds/91aa106c-7d2d-47b7-b4c4-80ff3a8f3c67',
       downloadLabel: 'Download for Android',
     },
     {
@@ -224,7 +225,8 @@ function Projects() {
                       <a
                         className="project-cta"
                         href={project.downloadUrl}
-                        download="BENTA-POS.apk"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {project.downloadLabel || 'Download'}
                       </a>
