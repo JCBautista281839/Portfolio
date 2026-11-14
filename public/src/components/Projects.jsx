@@ -81,9 +81,9 @@ function Projects() {
         bentaSettings,
       ],
       imageAlt: 'BENTA POS system screenshots',
-      liveUrl: '',
-      downloadUrl:
-        'https://expo.dev/accounts/itian11/projects/posapp/builds/91aa106c-7d2d-47b7-b4c4-80ff3a8f3c67',
+      liveUrl: '',      downloadUrl:
+        'https://drive.google.com/file/d/1nXxlv3EA6D4DX2DMcNQeetga_cZBheIi/view?usp=sharing',
+
       downloadLabel: 'Download for Android',
     },
     {
